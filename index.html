@@ -394,8 +394,16 @@ text-align:center;
 }
 
 .feature-text{
-     width:500px;
+      width:500px;
   flex-shrink:0;
+  text-align:left;
+}
+@media(max-width:768px){
+
+.cards{
+  grid-template-columns:1fr;
+}
+
 }
 .cards{
 grid-template-columns:1fr;
@@ -953,7 +961,7 @@ MOMOA가 알아서 챙겨드릴게요.
     <span class="badge">맞춤 추천</span>
 
     <h2>
-      어떤 약속을<br>
+      어떤 약속 장소를<br>
       좋아하시나요?
     </h2>
 
@@ -984,7 +992,8 @@ MOMOA가 알아서 챙겨드릴게요.
     <span class="badge">선호 지역</span>
 
     <h2>
-      자주 가는 지역을<br> 알려주세요
+       자주 가는 지역을<br>
+  알려주세요
     </h2>
 
     <p>
